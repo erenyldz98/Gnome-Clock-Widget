@@ -1,0 +1,7 @@
+{
+  "uuid": "clockwidget@eren",
+  "name": "Desktop Clock",
+  "description": "Dark and light Clock",
+  "shell-version": [ "45", "46", "47", "48", "49", "50" ],
+  "url": ""
+}

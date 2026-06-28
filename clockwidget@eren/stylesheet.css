@@ -1,0 +1,29 @@
+/* Ortak Alan */
+.clock-container {
+    border-radius: 0px;
+    padding: 0px 0px;
+    transition: all 0.3s ease;
+}
+
+.desktop-clock {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+/* Koyu Mod (Dark Mode) Aktifken */
+.clock-container.dark-mode {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+.clock-container.dark-mode .desktop-clock {
+    color: #262626;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.22);
+}
+
+/* Açık Mod (Light Mode) Aktifken */
+.clock-container.light-mode {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+.clock-container.light-mode .desktop-clock {
+    color: #fbfbfb;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.22);
+}
